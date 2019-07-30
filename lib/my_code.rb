@@ -19,15 +19,19 @@ def reduce_to_total(source_array,starting_point = 0)
   source_array.reduce(starting_point) { |sum, num| sum + num}
 end
 
-def reduce_to_all_true(source_array)
-  source_array.reduce do |ele|
-    if ele == true
-      return ele
+  def reduce_to_all_true(source_array)
+    i = 0
+    while i < source_array.length
+      element = source_array[i]
+      if element == false 
+        return false
+      else
+        return true
+      end
+      i += 1
     end
-    return false
-  end
 
-end
+  end
 
 def reduce_to_any_true(source_array)
   source_array.reduce { |ele| ele == true}
