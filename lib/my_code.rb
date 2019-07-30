@@ -4,5 +4,5 @@ def map_to_negativize(source_array)
 end
 
 def map_to_no_change(source_array)
-  source_array.map { |num| num}
+  source_array.map { |ele| ele}
 end
