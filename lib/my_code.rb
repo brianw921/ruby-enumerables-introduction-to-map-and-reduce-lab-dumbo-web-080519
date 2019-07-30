@@ -24,7 +24,7 @@ end
     while i < source_array.length
       element = source_array[i]
       if element == false
-        return false
+        return element
       end
       return true
       i += 1
