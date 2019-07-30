@@ -23,6 +23,9 @@ def reduce_to_all_true(source_array)
   source_array.reduce do |ele|
     if ele == true
       return true
+    else 
+      return false
+    end
     end
   end
 end
