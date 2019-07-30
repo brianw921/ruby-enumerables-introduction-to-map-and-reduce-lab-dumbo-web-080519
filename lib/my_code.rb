@@ -25,7 +25,7 @@ end
       element = source_array[i]
       if element == false
         return false
-      else
+      elsif element == true
         return true
       end
       i += 1
