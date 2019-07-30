@@ -28,9 +28,10 @@ end
 
       end
       i += 1
-      return true
+
 
     end
+    return true
   end
 
 def reduce_to_any_true(source_array)
