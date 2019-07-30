@@ -16,5 +16,5 @@ def map_to_square(source_array)
 end
 
 def reduce_to_total(source_array)
-  source_array.reduce { |num| starting_point + num}
+  source_array.reduce { |starting_point, num| starting_point + num}
 end
