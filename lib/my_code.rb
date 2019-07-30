@@ -24,7 +24,9 @@ def reduce_to_all_true(source_array)
     if ele == true
       return ele
     end
+    return false
   end
+
 end
 
 def reduce_to_any_true(source_array)
