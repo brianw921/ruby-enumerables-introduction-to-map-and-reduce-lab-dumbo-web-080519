@@ -23,7 +23,7 @@ end
     i = 0
     while i < source_array.length
       element = source_array[i]
-      if element == false 
+      if element == false
         return false
       else
         return true
