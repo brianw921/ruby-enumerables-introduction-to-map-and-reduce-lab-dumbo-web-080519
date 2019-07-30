@@ -21,10 +21,8 @@ end
 
 def reduce_to_all_true(source_array)
   source_array.reduce do |ele|
-    if ele != true
-      return false
-    else
-      return true
+    if ele == true
+      return ele
     end
   end
 end
