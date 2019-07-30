@@ -26,7 +26,7 @@ end
       if element == false
         return element
       end
-      return true
+      return falsey value
       i += 1
     end
   end
