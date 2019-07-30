@@ -32,5 +32,7 @@ end
   end
 
 def reduce_to_any_true(source_array)
-  source_array.reduce { |ele| ele == true}
+  source_array.any? do |ele|
+    ele == true
+  end
 end
